@@ -1,0 +1,114 @@
+2019-03-06 08:28:03,65H74812H1,purchase_model,insert_opening,1054insert into person (
+                       id
+                      ,person_name
+                      ,mailing_name
+                      ,email
+                      ,address_line1
+                      ,address_line2
+                      ,city
+                      ,po
+                      ,pin
+                      ,state
+                      ,contact_1
+                      ,contact_2
+                      ,person_category_id
+                      ,district
+                    ) VALUES (
+                        'C-00001-1819','Mou Podder3','MS Mou Podder','moupodder@gmail.com','Barrackpore','N C Pukur','Barrackpore','n c pukur','04508456','WB','35345345','345345',5,'345345345'
+                        
+                    )
+2019-03-06 08:28:06,Y6A4992457,purchase_model,insert_opening,1054insert into person (
+                       id
+                      ,person_name
+                      ,mailing_name
+                      ,email
+                      ,address_line1
+                      ,address_line2
+                      ,city
+                      ,po
+                      ,pin
+                      ,state
+                      ,contact_1
+                      ,contact_2
+                      ,person_category_id
+                      ,district
+                    ) VALUES (
+                        'C-00001-1819','Mou Podder3','MS Mou Podder','moupodder@gmail.com','Barrackpore','N C Pukur','Barrackpore','n c pukur','04508456','WB','35345345','345345',5,'345345345'
+                        
+                    )
+2019-03-06 08:59:19,6AXY4X8093,purchase_model,insert_opening,1048insert into person (
+                       id
+                      ,person_name
+                      ,sex
+                      ,email
+                      ,address_line1
+                      ,address_line2
+                      ,dob
+                      ,po
+                      ,pin
+                      ,contact1
+                      ,contact2
+                      ,person_category_id
+                    ) VALUES (
+                        NULL,'Mou Podder3','Female','moupodder@gmail.com','Barrackpore','N C Pukur','2000-05-02','n c pukur','04508456',NULL,NULL,5
+                        
+                    )
+2019-03-06 09:00:13,53075682XA,purchase_model,insert_opening,1048insert into person (
+                       id
+                      ,person_name
+                      ,sex
+                      ,email
+                      ,address_line1
+                      ,address_line2
+                      ,dob
+                      ,po
+                      ,pin
+                      ,contact1
+                      ,contact2
+                      ,person_category_id
+                    ) VALUES (
+                        NULL,'Mou Podder3','Female','moupodder@gmail.com','Barrackpore','N C Pukur','2000-05-02','n c pukur','04508456',NULL,NULL,5
+                        
+                    )
+2019-03-16 11:14:19,538X9895Y4,purchase_model,insert_opening,1064insert into person (
+                       id
+                      ,person_name
+                      ,sex
+                      ,email
+                      ,father_name
+                      ,mother_name
+                      ,address_line1
+                      ,address_line2
+                      ,dob
+                      ,po
+                      ,pin
+                      ,contact1
+                      ,contact2
+                      ,school_id
+                      ,person_category_id
+                    ) VALUES (
+                        ?,?,?,?,?,?,?,?,?,?,?,?,5
+                    )
+2019-03-30 09:18:29,5A53X743H0,purchase_model,insert_opening,1064insert into board(
+                board_name='abcd'
+                )
+2019-03-30 08:19:35,AY70A603Y1,purchase_model,insert_opening,1062insert into board(
+                board_name
+                ) values('adfe')
+2019-03-30 08:19:51,71H037A899,purchase_model,insert_opening,1062insert into board(
+                board_name
+                ) values('asewq')
+2019-03-30 08:19:55,X8H259AY30,purchase_model,insert_opening,1062insert into board(
+                board_name
+                ) values('asewq')
+2019-03-31 09:10:22,Y4211X6A7H,purchase_model,insert_opening,1241insert into board(
+                board_name
+                ) values((1,'CBSE'))
+2019-04-01 09:16:40,46A1AY6410,purchase_model,insert_opening,1054insert into board(
+                school_name
+                ,board_id
+                ) values('abcd',4)
+2019-04-01 09:22:26,9X65612A7X,purchase_model,insert_opening,1062insert into school(
+                school_name
+                ,board_id
+                ) values('avdsfds',3)
