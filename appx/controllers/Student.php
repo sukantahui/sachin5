@@ -430,7 +430,7 @@ class Student extends CI_Controller {
                             </table>
                             <div>
                                 <pre>
-                                    allSchools={{allSchools | json}};
+                                    school={{school | json}};
                                 </pre>
                             </div>
                         </div>

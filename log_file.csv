@@ -112,3 +112,7 @@
                 school_name
                 ,board_id
                 ) values('avdsfds',3)
+2019-04-01 09:58:25,4H26A023AX,purchase_model,insert_opening,1062insert into school(
+                school_name
+                ,board_id
+                ) values('acddd',1)

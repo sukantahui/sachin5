@@ -70,7 +70,7 @@ class School_model extends CI_Model
                 ,$st->board_id
             ,$st->id
             ));
-            //changing
+
             if($result==FALSE){
                 throw new Exception('error updating student');
             }

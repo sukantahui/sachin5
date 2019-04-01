@@ -289,12 +289,16 @@ app.controller("studentCtrl", function ($scope,$http,$filter,$timeout,dateFilter
     $scope.editSchool=function (tempSchool) {
         $scope.sclentry=true;$scope.brdsclentry=true;$scope.sclupdate=true;$scope.addschool=false;$scope.sclsumbit=false;
         angular.copy(tempSchool,$scope.school);
+        $scope.school.board=$scope.allBoards[$scope.allBoards.findIndex(x=>x.id==tempSchool.board_id)];
+
     }
 
     $scope.updateSchool=function (brd) {
         var snd={};
+        snd.id=brd.id;
         snd.school_name=brd.school_name;
         snd.board_id=brd.board.id;
+        console.log(snd);
         $scope.result=schoolService.update(snd);
     }
 
